@@ -23,3 +23,7 @@ def factorial(a,b):
     for i in range(2, n+1):
         resultado *= i
     return resultado
+def promedio(lista):
+    if not lista:
+        return "Error: Lista vacía"
+    return sum(lista) / len(lista)
