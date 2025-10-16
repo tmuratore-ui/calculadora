@@ -10,3 +10,5 @@ def potenciacion(a,b):
     return a**b
 def radicacion(a,b):
     return a ** (1/b)
+def modulo(a,b):
+    return a % b
