@@ -8,4 +8,5 @@ def divi(a, b):
     return a/b
 def potenciacion(a,b):
     return a**b
-    
+def radicacion(a,b):
+    return a ** (1/b)
