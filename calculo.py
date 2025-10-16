@@ -12,3 +12,5 @@ def radicacion(a,b):
     return a ** (1/b)
 def modulo(a,b):
     return a % b
+def porcentaje(a,b):
+    return (a*100)/b
