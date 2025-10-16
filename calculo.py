@@ -14,3 +14,12 @@ def modulo(a,b):
     return a % b
 def porcentaje(a,b):
     return (a*100)/b
+def factorial(a,b):
+    if n < 0:
+        return "Error: Factorial de número negativo"
+    if n == 0 or n == 1:
+        return 1
+    resultado = 1
+    for i in range(2, n+1):
+        resultado *= i
+    return resultado
