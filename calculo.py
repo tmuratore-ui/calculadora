@@ -27,3 +27,8 @@ def promedio(lista):
     if not lista:
         return "Error: Lista vacía"
     return sum(lista) / len(lista)
+def cm_a_pulgadas(cm):
+    return cm / 2.54
+
+def celsius_a_fahrenheit(c):
+    return (c * 9/5) + 32
